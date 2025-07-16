@@ -16,7 +16,8 @@ This project is a simple **Task Management REST API** built using **Go** and the
 ---
 
 ## 📂 Folder Structure
-task_manager/
+
+<pre>```task_manager/
 ├── main.go # App entry point
 ├── controllers/ # HTTP handlers
 │ └── task_controller.go
@@ -28,7 +29,8 @@ task_manager/
 │ └── router.go
 ├── docs/ # Documentation
 │ └── api_documentation.md
-└── go.mod
+└── go.mod```</pre>
+
 
 ## 🛠️ Getting Started
 
