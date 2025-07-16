@@ -21,8 +21,8 @@ Base URL: `http://localhost:8080`
 }
 ```
 **Responses**
-201 Created: Task created successfully
-400 Bad Request: Invalid JSON or duplicate ID
+- 201 Created: Task created successfully
+- 400 Bad Request: Invalid JSON or duplicate ID
 
 ### 🔹 Get All Tasks
 
@@ -30,8 +30,8 @@ Base URL: `http://localhost:8080`
 
 **Responses**
 
-200 OK: List of tasks
-200 OK + message: "No Task in DB" if list is empty
+- 200 OK: List of tasks
+- 200 OK + message: "No Task in DB" if list is empty
 
 ### 🔹 Get Task by ID
 
@@ -39,8 +39,8 @@ Base URL: `http://localhost:8080`
 
 **Responses**
 
-200 OK: Task details
-404 Not Found: Task does not exist
+- 200 OK: Task details
+- 404 Not Found: Task does not exist
 
 ### 🔹 Update Task
 **PUT** `/tasks/:id`
@@ -58,9 +58,9 @@ Base URL: `http://localhost:8080`
 
 **Responses**
 
-200 OK: Task updated
-400 Bad Request: Invalid JSON
-404 Not Found: Task not found
+- 200 OK: Task updated
+- 400 Bad Request: Invalid JSON
+- 404 Not Found: Task not found
 
 ### 🔹 Delete Task
 
@@ -68,8 +68,8 @@ Base URL: `http://localhost:8080`
 
 **Responses**
 
-200 OK: "Task deleted Successfully"
-404 Not Found: Task not found
+- 200 OK: "Task deleted Successfully"
+- 404 Not Found: Task not found
 
 ### 🧪 Testing Tools
 **You can test the endpoints using:**
